@@ -1,0 +1,17 @@
+.gallery {
+  padding: 24px 36px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  display: block;
+  width: calc((100% - 48px) / 3);
+  cursor: pointer;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
